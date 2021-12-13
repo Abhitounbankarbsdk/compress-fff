@@ -29,7 +29,7 @@ async def up(event):
 
 async def start(event):
     await event.reply(
-        f"Hi `{event.sender.first_name}`\nThis is A Compressor Bot Which Can Compress reduce size of Videos.\nReduce Size of Videos With Negligible Quality Change🥰🥰\nU For further information contact @Anshu888o Do not mess with my private chat everytime I am busy guy😔.",
+        f"Hello🥰 `{event.sender.first_name}`\nThis is A Compressor Bot Which Can Compress reduce size of Videos.\nReduce Size of Videos With Negligible Quality Change🥰🥰\nU For further information contact @Anshu888o Do not mess with my private chat everytime I am busy guy😔.",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
@@ -42,20 +42,20 @@ async def start(event):
 
 async def help(event):
     await event.reply(
-        "♡☆ A Quality Compress Bot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Nothing else🤫\n+LOVE U MUMMY\n+Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\nSo Be patience and Send videos One By One After Completing.\nDont Spam Bot or mess with me.\n\nJust Forward Video To Get Options no no sorry i forget that BOT is automatic😜"
+        "😘 A Quality Compress Bot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Nothing else🤫\n+LOVE U MUMMY\n+Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\nSo Be patience and Send videos One By One After Completing.\nDont Spam Bot or mess with me.\n\nJust Forward Video To Get Options no no sorry i forget that BOT is automatic😜"
     )
 
 
 async def ihelp(event):
     await event.edit(
-        "♡☆ A Quality Compress Bot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Nothing else🤫\n+LOVE U MUMMY\n+Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\nSo Be patience and Send videos One By One After Completing.\nDont Spam Bot or mess with me.\n\nJust Forward Video To Get Options no no sorry i forget that BOT is automatic😜",
+        "😘 A Quality Compress Bot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Nothing else🤫\n+LOVE U MUMMY\n+Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\nSo Be patience and Send videos One By One After Completing.\nDont Spam Bot or mess with me.\n\nJust Forward Video To Get Options no no sorry i forget that BOT is automatic😜",
         buttons=[Button.inline("BACK", data="beck")],
     )
 
 
 async def beck(event):
     await event.edit(
-        f"Hi `{event.sender.first_name}`\nThis is A Compressor Bot Which Can Compress reduce size of Videos.\nReduce Size of Videos With Negligible Quality Change🥰🥰\nU For further information contact @Anshu888o Do not mess with my private chat everytime I am busy guy😔.",
+        f"Hello🥰 `{event.sender.first_name}`\nThis is A Compressor Bot Which Can Compress reduce size of Videos.\nReduce Size of Videos With Negligible Quality Change🥰🥰\nU For further information contact @Anshu888o Do not mess with my private chat everytime I am busy guy😔.",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
