@@ -1,4 +1,4 @@
-#    This file is part of the CompressorQueue distribution.
+0#    This file is part of the CompressorQueue distribution.
 #    Copyright (c) 2021 Danish_00
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -29,7 +29,7 @@ async def up(event):
 
 async def start(event):
     await event.reply(
-        f"Hi `{event.sender.first_name}`\nThis is A Compressor Bot Which Can Compress reduce size of Videos.\nReduce Size of Videos With Negligible Quality Change🥰🥰\nU For further information contact @Anshu888o.",
+        f"Hi `{event.sender.first_name}`\nThis is A Compressor Bot Which Can Compress reduce size of Videos.\nReduce Size of Videos With Negligible Quality Change🥰🥰\nU For further information contact @Anshu888o Do not mess with my private chat everytime I am busy guy😔.",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
@@ -55,7 +55,7 @@ async def ihelp(event):
 
 async def beck(event):
     await event.edit(
-        f"Hi `{event.sender.first_name}`\nThis is A Compressor Bot Which Can Compress reduce size of Videos.\nReduce Size of Videos With Negligible Quality Change🥰🥰\nU For further information contact @Anshu888o Do not mess with my private chat evertime I am busy guy😔.",
+        f"Hi `{event.sender.first_name}`\nThis is A Compressor Bot Which Can Compress reduce size of Videos.\nReduce Size of Videos With Negligible Quality Change🥰🥰\nU For further information contact @Anshu888o Do not mess with my private chat everytime I am busy guy😔.",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
