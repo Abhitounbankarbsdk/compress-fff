@@ -1,4 +1,6 @@
-0#    This file is part of the CompressorQueue distribution.
+from .worker import *
+
+0  # This file is part of the CompressorQueue distribution.
 #    Copyright (c) 2021 Danish_00
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -12,8 +14,6 @@
 #
 # License can be found in <
 # https://github.com/1Danish-00/CompressorQueue/blob/main/License> .
-
-from .worker import *
 
 
 async def up(event):
